@@ -1,0 +1,85 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      font-variant: small-caps;
+      font-size: 60px;
+      font-weight: 800;
+      color: 009879;
+    }
+    .table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 20px;
+      min-width: 700px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .table thead tr {
+      text-align: left;
+      background-color: #009879;
+      color: white;
+      font-weight: bold;
+      /* padding: 60px; */
+    }
+    .table th,
+    td {
+      padding: 12px 15px;
+    }
+    .table tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+    .table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+    .table tbody tr:last-of-type {
+      border-bottom: 2px solid #009879;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <h1>Styling Table</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Bank</th>
+            <th>Name</th>
+            <th>Points</th>
+            <th>Teams</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Domenic</td>
+            <td>99, 110</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Oslim</td>
+            <td>72, 110</td>
+            <td>Students</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>39, 10</td>
+            <td>Students</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

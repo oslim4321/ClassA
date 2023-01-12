@@ -1,0 +1,88 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      min-width: 700px;
+    }
+    .table thead tr {
+      background-color: #009879;
+      text-align: left;
+      font-weight: bold;
+      color: white;
+      /* padding: 15px 20px ; */
+    }
+    .table th,
+    td {
+      padding: 20px 20px;
+    }
+
+    .table tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+
+    .table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3f3;
+    }
+    .table tbody tr:last-child {
+      border-bottom: 2px solid #009879;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Table Style</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Bank</th>
+            <th>Name</th>
+            <th>Points</th>
+            <th>Teams</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Oslim</td>
+            <td>99, 110</td>
+            <td>dcode</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Sally</td>
+            <td>45, 200</td>
+            <td>Student</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Mike</td>
+            <td>11, 300</td>
+            <td>dcode</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Jona</td>
+            <td>32, 290</td>
+            <td>Student</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
